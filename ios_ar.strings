@@ -3,3 +3,5 @@
 "add_a_string_test" = "هذه سلسلة جديدة";
 "third_string" = "هذه سلسلتي الثالثة";
 "adding_another" = "سلسلة أخرى للحذف";
+"just_another_string = "this is an additional string";
+"ok_another_string" = "test string addition";
