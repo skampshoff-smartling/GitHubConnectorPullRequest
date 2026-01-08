@@ -1,0 +1,150 @@
+---
+it-IT: 
+    activerecord: 
+        attributes: 
+            doorkeeper/application: 
+                name: "Nome"
+                redirect_uri: "Reindirizza URI"
+        errors: 
+            models: 
+                doorkeeper/application: 
+                    attributes: 
+                        redirect_uri: 
+                            fragment_present: "non può contenere un frammento."
+                            invalid_uri: "Deve essere un URI valido."
+                            unspecified_scheme: "deve specificare uno schema."
+                            relative_uri: "Deve essere un URI assoluto."
+                            secured_uri: "Deve essere un URI HTTPS/SSL."
+                            forbidden_uri: "è vietato dal server."
+                        scopes: 
+                            not_match_configured: "Non corrisponde a quelle configurate sul server."
+    doorkeeper: 
+        applications: 
+            confirmations: 
+                destroy: "Sei sicuro?"
+            buttons: 
+                edit: "Modifica"
+                destroy: "Distruggere"
+                submit: "Invia"
+                cancel: "Annulla"
+                authorize: "Autorizzare"
+            form: 
+                error: "Ops! Controlla il modulo per eventuali errori"
+            help: 
+                confidential: "L'applicazione sarà utilizzata quando il client secret può rimanere riservato. Le app mobili native e le app a pagina singola sono considerate non riservate."
+                redirect_uri: "Usa una linea per URI"
+                blank_redirect_uri: "Lascialo vuoto se hai configurato il tuo provider per usare le credenziali del cliente, le credenziali della password del proprietario delle risorse o qualsiasi altro tipo di grant che non richieda un redirect URI."
+                scopes: "Separati ambiti con spazi. Lascia vuoto per usare i mirini predefiniti."
+            edit: 
+                title: "Modifica applicazione"
+            index: 
+                title: "Le tue applicazioni"
+                new: "Nuova applicazione"
+                name: "Nome"
+                callback_url: "URL di richiamo"
+                confidential: "Confidenziale?"
+                actions: "Azioni"
+                confidentiality: 
+                    "yes": "Sì"
+                    "no": "No"
+            new: 
+                title: "Nuova applicazione"
+            show: 
+                title: "Applicazione: %{name}"
+                application_id: "UID"
+                secret: "Segreto"
+                secret_hashed: "Hash segreto"
+                scopes: "Ambiti"
+                confidential: "Confidenziale"
+                callback_urls: "URL di richiamo"
+                actions: "Azioni"
+                not_defined: "Non definito"
+        authorizations: 
+            buttons: 
+                allow: "Permette"
+                authorize: "Autorizzare"
+                deny: "Negare"
+            error: 
+                title: "Si è verificato un errore"
+            new: 
+                title: "Autorizzazione richiesta"
+                prompt: "Autorizzare %{client_name} a usare il tuo account?"
+                able_to: "Questa applicazione potrà"
+                logged_in_as: "Attualmente sei connesso con l'email: %{email}. Se intendevi connetterti da un altro account, puoi %{logout_link}."
+            show: 
+                title: "Codice di autorizzazione"
+            form_post: 
+                title: "Invia questo modulo"
+        authorized_applications: 
+            confirmations: 
+                revoke: "Sei sicuro?"
+            buttons: 
+                revoke: "Revoca"
+            index: 
+                title: "Le tue applicazioni autorizzate"
+                application: "Applicazione"
+                created_at: "Creato a"
+                date_format: "%Y-%m-%d %H:%M:%S"
+        pre_authorization: 
+            status: "Pre-autorizzazione"
+        errors: 
+            messages: 
+        # Common error messages
+                invalid_request: 
+                    unknown: "La richiesta manca di un parametro richiesto, include un valore di parametro non supportato o è altrimenti malformata."
+                    missing_param: "Parametro richiesto mancante: %{value}."
+                    request_not_authorized: "La richiesta deve essere autorizzata. Il parametro richiesto per autorizzare la richiesta manca o non è valido."
+                invalid_redirect_uri: "L'URI di reindirizzamento richiesto è malformato o non corrisponde all'URI di reindirizzamento del cliente."
+                unauthorized_client: "Il cliente non è autorizzato a eseguire questa richiesta utilizzando questo metodo."
+                access_denied: "Il proprietario della risorsa o il server di autorizzazione ha negato la richiesta."
+                invalid_scope: "L'ambito richiesto è invalido, sconosciuto o malformato."
+                invalid_code_challenge_method: "Il metodo di sfida del codice deve essere semplice o S256."
+                server_error: "Il server di autorizzazione si è trovato di fronte a una condizione imprevista che gli ha impedito di soddisfare la richiesta."
+                temporarily_unavailable: "Il server di autorizzazione attualmente non è in grado di gestire la richiesta a causa di un sovraccarico temporaneo o della manutenzione del server."
+        # Configuration error messages
+                credential_flow_not_configured: "Il flusso delle credenziali delle password del proprietario della risorsa è fallito a causa di Doorkeeper.configure.resource_owner_from_credentials non configurato."
+                resource_owner_authenticator_not_configured: "Risorsa del proprietario della risorsa non ha fallito a causa di Doorkeeper.configure.resource_owner_authenticator non configurato."
+                admin_authenticator_not_configured: "L'accesso al pannello amministrativo è vietato a causa di Doorkeeper.configure.admin_authenticator non configurato."
+        # Access grant errors
+                unsupported_response_type: "Il server di autorizzazione non supporta questo tipo di risposta."
+                unsupported_response_mode: "Il server di autorizzazione non supporta questa modalità di risposta."
+        # Access token errors
+                invalid_client: "L'autenticazione del client è fallita a causa di un client sconosciuto, nessuna autenticazione del client inclusa, o metodo di autenticazione non supportato."
+                invalid_grant: "La concessione di autorizzazione fornita è invalida, scaduta, revocata, non corrisponde all'URI di reindirizzamento utilizzato nella richiesta di autorizzazione, o è stata rilasciata a un altro cliente."
+                unsupported_grant_type: "Il tipo di concessione di autorizzazione non è supportato dal server di autorizzazione."
+                invalid_token: 
+                    expired: "Il token di accesso è scaduto"
+                    revoked: "Il token di accesso è stato revocato"
+                    unknown: "Il token di accesso è invalido"
+                resource_owner_authenticator_not_configured: "Risorsa del proprietario della risorsa non ha fallito a causa di Doorkeeper.configure.resource_owner_authenticator non configurato."
+                server_error: "Il server di autorizzazione si è trovato di fronte a una condizione imprevista che gli ha impedito di soddisfare la richiesta."
+                temporarily_unavailable: "Il server di autorizzazione attualmente non è in grado di gestire la richiesta a causa di un sovraccarico temporaneo o della manutenzione del server."
+                unauthorized_client: "Il cliente non è autorizzato a eseguire questa richiesta utilizzando questo metodo."
+                unsupported_grant_type: "Il tipo di concessione di autorizzazione non è supportato dal server di autorizzazione."
+                unsupported_response_type: "Il server di autorizzazione non supporta questo tipo di risposta."
+                revoke: 
+                    unauthorized: "Non sei autorizzato a revocare questo token"
+                forbidden_token: 
+                    missing_scope: "L'accesso a questa risorsa richiede ambito di \"%{oauth_scopes}\"."
+        flash: 
+            applications: 
+                create: 
+                    notice: "Domanda creata."
+                destroy: 
+                    notice: "Domanda eliminata."
+                update: 
+                    notice: "Domanda aggiornata."
+            authorized_applications: 
+                destroy: 
+                    notice: "Domanda revocata."
+        layouts: 
+            admin: 
+                title: "Portinaio"
+                nav: 
+                    oauth2_provider: "OAuth2 Provider"
+                    applications: "Applicazioni"
+                    home: "Casa"
+            application: 
+                title: "Richiesta autorizzazione OAuth"
+        scopes: 
+            procore_all: "Procore All: L'accesso concesso a questa applicazione sarà lo stesso del tuo accesso a Procore."

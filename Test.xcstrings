@@ -1,9 +1,9 @@
 {
-  "version": "1.0",
+  "version" : "1.0",
   "sourceLanguage" : "en",
   "strings" : {
     "hello_world" : {
-      "shouldTranslate": true,
+      "shouldTranslate" : true,
       "comment" : "Here is a comment for the translator",
       "extractionState" : "manual",
       "localizations" : {
@@ -12,11 +12,47 @@
             "state" : "translated",
             "value" : "Hello World"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هالو وورلد"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonjour le monde"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonjour le monde!"
+          }
+        },
+        "it-IT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salve, mondo"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olá, mundo!"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你好，世界"
+          }
         }
       }
     },
     "hi_there" : {
-      "shouldTranslate": true,
+      "shouldTranslate" : true,
       "comment" : "Here is a comment for the translator",
       "extractionState" : "manual",
       "localizations" : {
@@ -24,6 +60,42 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hi there"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hallo,"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hola:"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonjour,"
+          }
+        },
+        "it-IT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ehilà"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olá"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hejsan,"
           }
         }
       }
