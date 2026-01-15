@@ -1,0 +1,150 @@
+---
+pt: 
+    activerecord: 
+        attributes: 
+            doorkeeper/application: 
+                name: "Nome"
+                redirect_uri: "URI de redirecionamento"
+        errors: 
+            models: 
+                doorkeeper/application: 
+                    attributes: 
+                        redirect_uri: 
+                            fragment_present: "não pode conter um fragmento."
+                            invalid_uri: "Deve ser um URI válido."
+                            unspecified_scheme: "Deve-se especificar um esquema."
+                            relative_uri: "Deve ser um URI absoluto."
+                            secured_uri: "Deve ser um URI HTTPS/SSL."
+                            forbidden_uri: "É proibido pelo servidor."
+                        scopes: 
+                            not_match_configured: "Não corresponde à configuração do servidor."
+    doorkeeper: 
+        applications: 
+            confirmations: 
+                destroy: "Tem certeza?"
+            buttons: 
+                edit: "Editar"
+                destroy: "Destruir"
+                submit: "Enviar"
+                cancel: "Cancelar"
+                authorize: "Autorizar"
+            form: 
+                error: "Ops! Verifique seu formulário em busca de possíveis erros."
+            help: 
+                confidential: "O aplicativo será utilizado em situações onde o segredo do cliente possa ser mantido em sigilo. Aplicativos móveis nativos e aplicativos de página única são considerados não confidenciais."
+                redirect_uri: "Use uma linha por URI."
+                blank_redirect_uri: "Deixe em branco se você configurou seu provedor para usar Credenciais do Cliente, Credenciais de Senha do Proprietário do Recurso ou qualquer outro tipo de concessão que não exija URI de redirecionamento."
+                scopes: "Separe os escopos com espaços. Deixe em branco para usar os escopos padrão."
+            edit: 
+                title: "Editar aplicativo"
+            index: 
+                title: "Suas candidaturas"
+                new: "Novo aplicativo"
+                name: "Nome"
+                callback_url: "URL de retorno de chamada"
+                confidential: "Confidencial?"
+                actions: "Ações"
+                confidentiality: 
+                    "yes": "Sim"
+                    "no": "Não"
+            new: 
+                title: "Novo aplicativo"
+            show: 
+                title: "Aplicação: %{name}"
+                application_id: "UID"
+                secret: "Segredo"
+                secret_hashed: "Segredo hash"
+                scopes: "Escopos"
+                confidential: "Confidencial"
+                callback_urls: "URLs de retorno de chamada"
+                actions: "Ações"
+                not_defined: "Não definido"
+        authorizations: 
+            buttons: 
+                allow: "Permitir"
+                authorize: "Autorizar"
+                deny: "Negar"
+            error: 
+                title: "Ocorreu um erro."
+            new: 
+                title: "É necessária autorização."
+                prompt: "Autorizo %{client_name} a usar minha conta?"
+                able_to: "Este aplicativo será capaz de"
+                logged_in_as: "Você está conectado com o e-mail: %{email}. Se você pretendia se conectar de outra conta, você pode %{logout_link}."
+            show: 
+                title: "Código de autorização"
+            form_post: 
+                title: "Envie este formulário"
+        authorized_applications: 
+            confirmations: 
+                revoke: "Tem certeza?"
+            buttons: 
+                revoke: "Revogar"
+            index: 
+                title: "Seus aplicativos autorizados"
+                application: "Aplicativo"
+                created_at: "Criado em"
+                date_format: "%Y-%m-%d %H:%M:%S"
+        pre_authorization: 
+            status: "Pré-autorização"
+        errors: 
+            messages: 
+        # Common error messages
+                invalid_request: 
+                    unknown: "A solicitação não contém um parâmetro obrigatório, inclui um valor de parâmetro não suportado ou está malformada de alguma outra forma."
+                    missing_param: "Parâmetro obrigatório ausente: %{value}."
+                    request_not_authorized: "A solicitação precisa ser autorizada. O parâmetro obrigatório para autorizar a solicitação está ausente ou é inválido."
+                invalid_redirect_uri: "O URI de redirecionamento solicitado está malformado ou não corresponde ao URI de redirecionamento do cliente."
+                unauthorized_client: "O cliente não está autorizado a executar esta solicitação usando este método."
+                access_denied: "O proprietário do recurso ou o servidor de autorização negou a solicitação."
+                invalid_scope: "O escopo solicitado é inválido, desconhecido ou malformado."
+                invalid_code_challenge_method: "O método de desafio de código deve ser simples ou S256."
+                server_error: "O servidor de autorização encontrou uma condição inesperada que o impediu de atender à solicitação."
+                temporarily_unavailable: "O servidor de autorização está temporariamente indisponível para processar a solicitação devido a uma sobrecarga ou manutenção."
+        # Configuration error messages
+                credential_flow_not_configured: "O fluxo de credenciais de senha do proprietário do recurso falhou devido a Doorkeeper.configure.resource_owner_from_credentials estando não configurado."
+                resource_owner_authenticator_not_configured: "A localização do proprietário do recurso falhou devido a Doorkeeper.configure.resource_owner_authenticator. estando não configurado."
+                admin_authenticator_not_configured: "O acesso ao painel de administração está proibido devido a Doorkeeper.configure.admin_authenticator. estando não configurado."
+        # Access grant errors
+                unsupported_response_type: "O servidor de autorização não suporta este tipo de resposta."
+                unsupported_response_mode: "O servidor de autorização não suporta este modo de resposta."
+        # Access token errors
+                invalid_client: "A autenticação do cliente falhou devido a um cliente desconhecido, nenhuma autenticação de cliente incluída ou um método de autenticação não suportado."
+                invalid_grant: "A autorização concedida é inválida, expirou, foi revogada, não corresponde ao URI de redirecionamento usado na solicitação de autorização ou foi emitida para outro cliente."
+                unsupported_grant_type: "O tipo de concessão de autorização não é suportado pelo servidor de autorização."
+                invalid_token: 
+                    expired: "O token de acesso expirou"
+                    revoked: "O token de acesso foi revogado."
+                    unknown: "O token de acesso é inválido."
+                resource_owner_authenticator_not_configured: "A localização do proprietário do recurso falhou devido a Doorkeeper.configure.resource_owner_authenticator. estando não configurado."
+                server_error: "O servidor de autorização encontrou uma condição inesperada que o impediu de atender à solicitação."
+                temporarily_unavailable: "O servidor de autorização está temporariamente indisponível para processar a solicitação devido a uma sobrecarga ou manutenção."
+                unauthorized_client: "O cliente não está autorizado a executar esta solicitação usando este método."
+                unsupported_grant_type: "O tipo de concessão de autorização não é suportado pelo servidor de autorização."
+                unsupported_response_type: "O servidor de autorização não suporta este tipo de resposta."
+                revoke: 
+                    unauthorized: "Você não tem autorização para revogar este token."
+                forbidden_token: 
+                    missing_scope: "O acesso a este recurso requer escopo \"%{oauth_scopes}\"."
+        flash: 
+            applications: 
+                create: 
+                    notice: "Solicitação criada."
+                destroy: 
+                    notice: "Candidatura excluída."
+                update: 
+                    notice: "Aplicativo atualizado."
+            authorized_applications: 
+                destroy: 
+                    notice: "Pedido revogado."
+        layouts: 
+            admin: 
+                title: "Porteiro"
+                nav: 
+                    oauth2_provider: "Provedor OAuth2"
+                    applications: "Aplicações"
+                    home: "Lar"
+            application: 
+                title: "É necessária autorização OAuth."
+        scopes: 
+            procore_all: "Procore All: O acesso concedido a este aplicativo será o mesmo que o seu acesso ao Procore."
