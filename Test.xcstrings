@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "sourceLanguage" : "en",
   "strings" : {
     "hello_world" : {
@@ -24,6 +24,19 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hi there"
+          }
+        }
+      }
+    },
+    "hi_there_again" : {
+      "shouldTranslate": true,
+      "comment" : "Here is a comment for the translator",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hi there again"
           }
         }
       }
