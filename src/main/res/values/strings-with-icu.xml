@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- smartling.instruction_comments_enabled = on -->
+  <string name="results">Your playlist has {items, plural, one {# album.} other {# albums.}}</string>
+  <string name="accept">Accept</string>
+  <string name="account">Account</string>
+  <string name="accountBalance">Account Balance</string>
+  <string name="accountControls">Account Controls</string>
+  <string name="accountHealth">Account Health</string>
+  <string name="accountHealthDetailTitleFulfillment">Fulfillment Success Rate</string>
+  <string name="accountHealthDetailTitleFulfillment2">Defect-Free Order Rate</string>
+  <string name="accountHealthDetailTitleShipment">On-Time Shipment Rate</string>
+  <string name="accountHealthDetailTitleShipment2">On-Time Scan Rate</string>
+  <string name="accuracy">Accuracy</string>
+  <string name="activateOnMarketplace">Activate on Marketplace</string>
+  <!-- Status of a seller listing. -->
+  <string name="active">Active</string>
+  <string name="activity">Activity</string>
+  <string name="activityHubViewerListChatAtCallToAction">\@</string>
+  <string name="activityStatus">Activity status</string>
+  <string name="activityStatusDescription">You and followers you follow back will see each other\’s activity status when both of you have this on.</string>
+  <string name="activityTabTabTitleBids">Bids</string>
+  <string name="add">Add</string>
+  <string name="addAddress">Add Address</string>
+  <string name="addInfo">Add Info</string>
+  <string name="addMedia">Add Photos</string>
+  <string name="addPaymentMethod">Add Payment Method</string>
+  <string name="addPhoto">Add photo</string>
+  <string name="address">Address</string>
+  <string name="addresses">Addresses</string>
+  <string name="adsBoostV2ConfirmationSubtitle">We\'ll surge impressions for your show for up to 15 minutes. If you are already live, the clock starts now, so go max your moment!</string>
+  <string name="adsBoostV2ConfirmationTitle">Boom, boosted!</string>
+  <!-- Refers to action that selects all filters from the single group. -->
+  <string name="all">All</string>
+  <string name="anytimeAuctions">Anytime Auctions</string>
+  <string name="apply">Apply</string>
+  <!-- Used on a button to confirm that user wants to apply for a sale tax exemption. -->
+  <string name="applyNow">Apply Now</string>
+  <!-- Precedence for appName: (1) Localized values-*/strings.xml, (2) resValue in app's build.gradle, (3) values/strings.xml. -->
+  <string name="appName" translatable="false">Whatnot</string>
+  <string name="approved">Approved</string>
+  <string name="appVersion" translatable="false" />
+  <string name="appVersionCode" translatable="false" />
+  <string name="areYouSure">Are you sure?</string>
+  <string name="arrivingToday">Arriving Today!</string>
+  <!-- Refers to assigning a seller marketplace item to livestream. -->
+  <string name="assignToLiveShow">Assign to Live Show</string>
+  <string name="auction">Auction</string>
+  <string name="auctionEnded">Awaiting Next Item</string>
+  <!-- User can mute audio on livestream. Verb. -->
+  <string name="audioMute">Mute</string>
+  <!-- User can unmute audio on livestream. Verb. -->
+  <string name="audioUnmute">Unmute</string>
+  <string name="available">Available</string>
+  <string name="back">Back</string>
+  <string name="bankAccount">Bank Account</string>
+  <plurals name="bidCount">
+    <item quantity="one">%1$d Bid</item>
+    <item quantity="other">%1$d Bids</item>
+  </plurals>
+  <!-- Refer to an info about bid amount. %1$s price dynamic param. Noun. -->
+  <string name="bidWithPrice">Bid %1$s</string>
+  <string name="bioPlaceholder">Tell us more about you</string>
+  <string name="block">Block</string>
+  <!-- Verb -->
+  <string name="bookmark">Bookmark</string>
+  <!-- Refers to promoting a livestream -->
+  <string name="boost">Boost</string>
+  <!-- Appears on a show item in the feed that has an active Community Boost -->
+  <string name="boostedByViewers">Boosted by Viewers</string>
+  <!-- Community Boost - Boost screen - label text on the Boost screen indicating the community boost status -->
+  <string name="boostSellerBoostCardLabelActive">Active</string>
+  <!-- Community Boost - Connect Rewards Club screen - Setting title -->
+  <string name="boostSellerConnectRewardsClubSettingDescription">Count buyers\' Community Boost contributions toward their Rewards Club achievements.</string>
+  <!-- Community Boost - Connect Rewards Club screen - Setting description -->
+  <string name="boostSellerConnectRewardsClubSettingTitle">Connect Community Boost\nwith Rewards Club</string>
+  <string name="breakStatusBreakingNow">Breaking Now 💥</string>
+  <string name="breakStatusCancelled">Break Cancelled 🚫</string>
+  <string name="breakStatusCancelledGeneric">Cancelled 🚫</string>
+  <string name="breakStatusCancelledNoEmoji">Break Cancelled</string>
+  <string name="breakStatusCompleted">Breaking Completed ✅</string>
+  <string name="breakStatusCompletedGeneric">Completed ✅</string>
+  <string name="breakStatusFilled">Break Filled 💯</string>
+  <string name="breakStatusFilledGeneric">Filled 💯</string>
+  <string name="breakStatusFilling">Break Filling ⏳</string>
+  <string name="breakStatusFillingImplicit">Filling ⏳</string>
+  <string name="browse">Browse</string>
+  <string name="bullet" translatable="false">•</string>
+  <string name="buyer">Buyer</string>
+  <string name="buyItNow">Buy It Now</string>
+  <string name="buyNow">Buy Now</string>
+  <string name="buySpots">Buy Spots</string>
+  <string name="cameraAndAudioPermissionsAreRequired">Camera and audio permissions are required</string>
+  <string name="cameraPermission">Camera permission is required</string>
+  <string name="cancel">Cancel</string>
+  <string name="cancelled">Cancelled</string>
+  <string name="categories">Categories</string>
+  <string name="category">Category</string>
+  <plurals name="categorySelectionCountSelected">
+    <item quantity="one">%1$d Selected</item>
+    <item quantity="other">%1$d Selected</item>
+  </plurals>
+  <plurals name="categorySelectionOptions">
+    <item quantity="one">%1$d Option</item>
+    <item quantity="other">%1$d Options</item>
+  </plurals>
+  <string name="categorySelectionSelected">Selected</string>
+  <string name="categorySelectionTwoLineTitle">Let\'s find you\nsomething to shop for.</string>
+  <string name="changeLanguage" translatable="false">Change Language</string>
+  <string name="changePaymentPayPal" translatable="false">PayPal</string>
+  <string name="changePaymentVenmo" translatable="false">Venmo</string>
+  <string name="chatUserJoined">joined 👋</string>
+  <!-- Displayed to the seller if a buyer joins the livestream via an ad. After the message there will be a badge that represents the ad product the buyer joined from. -->
+  <string name="chatUserJoinedThroughAd"><![CDATA[👋 joined via <annotation tag="toolContent">%1$s</annotation>]]></string>
+  <string name="chatUserJoinedThroughOtherSharedLink">👋 joined through a shared link by @%1$s</string>
+  <string name="chatUserJoinedThroughYourSharedLink">👋 joined through your shared link</string>
+  <string name="checkStatus">Check status</string>
+  <string name="checkYourConnectionAndTryAgain">Check your connection and try again.</string>
+  <string name="checkYourEmailForDetails">Check your email for details.</string>
+  <string name="chooseAnOption">Choose an Option</string>
+  <string name="chooseFromLibrary">Choose from library</string>
+  <string name="chooseYourUsername">Choose your username</string>
+  <string name="claimNow">Claim Now</string>
+  <string name="clear">Clear</string>
+  <string name="clearAll">Clear All</string>
+  <string name="clip">Clip</string>
+  <string name="clips">Clips</string>
+  <string name="close">Close</string>
+  <string name="collapse">Collapse</string>
+  <string name="communityBoost">Community Boost</string>
+  <string name="communityGuidelinesUrl">https://help.whatnot.com/hc/articles/360061197472-Whatnot-Community-Guidelines</string>
+  <string name="completed">Completed</string>
+  <string name="confirm">Confirm</string>
+  <string name="confirmPurchase">Confirm Purchase</string>
+  <string name="confirmYourBid">Confirm your bid</string>
+  <string name="confirmYourBidMessage">Are you sure you want to place a %1$s bid? Failed payments may lead to action against your account.</string>
+  <string name="contactUs">Contact Us</string>
+  <string name="continueText">Continue</string>
+  <string name="continueWithEmail">Continue with Email</string>
+  <string name="continueWithFacebook">Continue with Facebook</string>
+  <string name="continueWithGoogle">Continue with Google</string>
+  <string name="copied">Copied</string>
+  <string name="copy">Copy</string>
+  <string name="copyLink">Copy link</string>
+  <string name="countdownTimer">%1$s:%2$s</string>
+  <string name="countdownTimerDaysHoursAbbreviatedNoComma">%1$sd %2$sh</string>
+  <string name="countdownTimerHoursMinsAbbreviatedNoComma">%1$sh %2$sm</string>
+  <string name="countdownTimerMinsSecsShortened">%1$s:%2$s</string>
+  <string name="countdownTimerSuddenDeath">%1$s:%2$s 💀</string>
+  <string name="counterOffer">Counter Offer</string>
+  <string name="country">Country</string>
+  <!-- Title indicating the country the user lives in -->
+  <string name="countryOfResidence">Country of residence</string>
+  <!-- This is only asking for user's country -->
+  <string name="countryPickerStepHeader">Add your country of residence</string>
+  <!-- Checkbox label shown when selecting a country with a different legal entity requires ToS re-acceptance -->
+  <string name="countryPickerStepTosReacceptance"><![CDATA[By continuing, you agree to our <annotation tag="termsOfService">Terms of Service</annotation> and <annotation tag="privacyPolicy">Privacy Policy</annotation>]]></string>
+  <string name="create">Create</string>
+  <string name="createAProduct">Create a Product</string>
+  <string name="createListing">Create Listing</string>
+  <string name="createPoll">Create Poll</string>
+  <string name="createQualityListing">Create Quality Listing</string>
+  <string name="createTemporaryListing">Create Temporary Listing</string>
+  <string name="creditRevealDescription">Once you make your first purchase, %1$s will receive the same amount of credit.</string>
+  <!-- %1$s is the user's referrer's name. -->
+  <string name="creditRevealDescriptionNonRandom">%1$s invited you to Whatnot! Make your first purchase and join millions of shoppers on Whatnot.</string>
+  <string name="creditRevealErrorDescription"><![CDATA[Continue with onboarding to see other opportunities to get Whatnot credit. <annotation tag="link">See Terms</annotation>]]></string>
+  <string name="creditRevealErrorTitle">Unfortunately you don\'t qualify for referral credit</string>
+  <string name="creditRevealTitle">Congratulations! You have %1$s in Whatnot credit.</string>
+  <string name="csatSurveyMinimizedTitle">Rate your support experience</string>
+  <string name="custom">Custom</string>
+  <string name="date">Date</string>
+  <string name="dateAndTimeLabel">Date &amp; Time</string>
+  <string name="dateAtTime">%1$s at %2$s</string>
+  <string name="deactivateOnMarketplace">Deactivate on Marketplace</string>
+  <!-- Refers to declining an invite to be a livestream show co-host. Also used as a order status. -->
+  <string name="decline">Decline</string>
+  <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+  <string name="defaultLabel">Default</string>
+  <string name="delete">Delete</string>
+  <string name="deleteListings">Delete Listings</string>
+  <string name="delivered">Delivered</string>
+  <string name="deliveryMethod">Delivery Method</string>
+  <string name="description">Description</string>
+  <string name="details">Details</string>
+  <string name="directMessages">Direct messages</string>
+  <string name="directMessagesLostAccess">You\'ve lost access to messages.</string>
+  <string name="directMessagesSentPhotoSubtitle">&#128247; %1$s</string>
+  <string name="discard">Discard</string>
+  <string name="dismiss">Dismiss</string>
+  <!-- Indicates the action of disputing something, e.g. "I would like to dispute this return" -->
+  <string name="dispute">Dispute</string>
+  <string name="done">Done</string>
+  <string name="dontShowAgain">Don\'t show this again</string>
+  <!-- Indicates a listing in "Draft" state -->
+  <string name="draft">Draft</string>
+  <string name="draftSave">Save Draft</string>
+  <string name="durationHoursMinutes">%1$sh %2$sm</string>
+  <string name="durationMinutes">%1$sm</string>
+  <string name="durationSeconds">%1$ss</string>
+  <string name="edit">Edit</string>
+  <string name="editProfile">Edit profile</string>
+  <string name="email">Email</string>
+  <string name="emailAlreadyTaken">Email already taken</string>
+  <string name="emailIsInvalid">Email is invalid</string>
+  <string name="emDash">\u2014</string>
+  <string name="emDashEmDash">\u2014\u2014</string>
+  <string name="ended">Ended</string>
+  <string name="endShow">End Show</string>
+  <string name="endsInLabel">Ends in: </string>
+  <string name="enjoyNonRandomizedCredit">Enjoy a %1$s credit to spend on your first purchase!</string>
+  <string name="enjoyRandomizedCredit">Enjoy %1$s - %2$s credit to spend on your first purchase!</string>
+  <string name="enterTheCodeSentToNumber">Enter the code sent to %1s.</string>
+  <string name="enterUsername">Enter username</string>
+  <string name="enterYourVerificationCode">Enter your verification code</string>
+  <string name="error">Error</string>
+  <string name="escalateToWhatnotSupport">Escalate to Whatnot Support</string>
+  <!-- Used to display a converted currency amount e.g., when converting EUR to USD: "est. $5 USD" -->
+  <string name="estimatedConvertedCurrencyAmount">est. %1$s</string>
+  <!-- Used to display a converted currency amount e.g., when converting EUR to USD: "est. $5 USD" -->
+  <string name="estimatedConvertedCurrencyAmountParenthesized">(est. %1$s)</string>
+  <string name="estimatedConvertedCurrencyAmountParenthesizedWithOriginalPrice">%1$s (est. %2$s)</string>
+  <plurals name="events">
+    <item quantity="one">%1$s Event</item>
+    <item quantity="other">%1$s Events</item>
+  </plurals>
+  <string name="everyone">Everyone</string>
+  <string name="expand">Expand</string>
+  <string name="expectedByDateValue">Expected by %1$s</string>
+  <string name="experiments" translatable="false">Experiments</string>
+  <string name="expired">Expired</string>
+  <plurals name="expiresInXDays">
+    <item quantity="one">Expires in %1$d day</item>
+    <item quantity="other">Expires in %1$d days</item>
+  </plurals>
+  <plurals name="expiresInXHours">
+    <item quantity="one">Expires in %1$d hour</item>
+    <item quantity="other">Expires in %1$d hours</item>
+  </plurals>
+  <plurals name="expiresInXMinutes">
+    <item quantity="one">Expires in %1$d minute</item>
+    <item quantity="other">Expires in %1$d minutes</item>
+  </plurals>
+  <string name="explicitContent">Explicit Content</string>
+  <string name="failed">Failed</string>
+  <string name="faqs">FAQ\'s</string>
+  <string name="favoriteInterestSelectionV2Title">Which category is\nyour favorite?</string>
+  <string name="featureFlags" translatable="false">Feature Flags</string>
+  <string name="female">Female</string>
+  <string name="findFriends">Find Friends</string>
+  <string name="finish">Finish</string>
+  <plurals name="flashFridayFlashSalesCount">
+    <item quantity="one">%1$s Flash Sales</item>
+    <item quantity="other">%1$s Flash Sales</item>
+  </plurals>
+  <string name="flashSale">Flash Sale</string>
+  <string name="flashSaleDiscountTypePercentageOffTitle">Percentage Off</string>
+  <string name="flashSaleFormAvailableForFullPriceLabel">Available for Full Price</string>
+  <string name="flashSaleFormAvailableForFullPriceToggleDescription">If turned on this product will be available before and after the Flash Sale at full price.</string>
+  <string name="flashSaleFormDiscountTypeLabel">Discount Type</string>
+  <string name="flashSaleFormDurationLabel">Flash Sale Length</string>
+  <string name="flashSaleFormPercentageOffLabel">Percentage Off Amount</string>
+  <string name="flashSaleFormSetMaxPurchaseLimitLabel">Set Max Purchase Limit</string>
+  <string name="flashSaleSetMaxPurchaseLimitToggleDescription">Set a max purchase limit per buyer.</string>
+  <string name="follow">Follow</string>
+  <string name="followAll">Follow all</string>
+  <string name="followBack">Follow back</string>
+  <string name="followers">Followers</string>
+  <plurals name="followersCountPlural">
+    <item quantity="one">%1$s Follower</item>
+    <item quantity="other">%1$s Followers</item>
+  </plurals>
+  <string name="following">Following</string>
+  <plurals name="followingCountPlural">
+    <item quantity="other">%1$s Following</item>
+  </plurals>
+  <!-- Refers to an information text on livestream tile. -->
+  <string name="freeShipping">Free Shipping</string>
+  <string name="friends">Friends</string>
+  <string name="fulfillment">Fulfillment</string>
+  <string name="fulfillOrders">Fulfill Orders</string>
+  <string name="fullName">Full Name</string>
+  <!-- Placeholder for full name input field; in Japanese, this should instead be the example name, Sato Haruto, separated by a zenkaku space (佐藤　陽翔) -->
+  <string name="fullNamePlaceholder">First and last name</string>
+  <string name="gallery">Gallery</string>
+  <string name="genderSelectionDetail">This allows us to suggest more relevant categories.</string>
+  <!-- "gender" refers to gender identity. -->
+  <string name="genderSelectionHeader">What\'s your gender?</string>
+  <string name="genericErrorStateDescription">Looks like something went wrong, tap retry to try again</string>
+  <string name="genericErrorStateDescriptionWithStatusPage"><![CDATA[Looks like something went wrong. Check out our <annotation tag="status_page">status page</annotation> or tap retry to try again.]]></string>
+  <string name="genericErrorStateTitle">This is embarrassing</string>
+  <string name="getHelp">Get help</string>
+  <string name="getHelpWithThisPurchase">Get help with this purchase</string>
+  <string name="getStarted">Get Started</string>
+  <string name="giveaway">Giveaway</string>
+  <string name="goBack">Go Back</string>
+  <plurals name="goLiveForXMinutes">
+    <item quantity="one">Go live for %1$d minute</item>
+    <item quantity="other">Go live for %1$d minutes</item>
+  </plurals>
+  <string name="good">Good</string>
+  <string name="gotIt">Got It</string>
+  <string name="gotItExclamationMark">Got It!</string>
+  <string name="guidedTourChecklistAddProducts">Add products to your shop</string>
+  <string name="guidedTourChecklistBringInBuyers">Bring in buyers</string>
+  <string name="guidedTourChecklistScheduleShow">Create your show</string>
+  <string name="guidedTourChecklistStartShow">Go live!</string>
+  <string name="guidedTourChecklistTitle">Get ready to go live</string>
+  <string name="guidedTourNoShowDialogScheduleButton">Schedule Show</string>
+  <string name="hazmatToggleDescriptionLinkUrl" translatable="false">https://help.whatnot.com/hc/articles/11324660673037-Hazardous-Materials-Policy</string>
+  <string name="help">Help</string>
+  <string name="home">Home</string>
+  <string name="howItWorks">How it works</string>
+  <!-- Used on live buyer menu button to indicate an action in support of the seller; boosting the seller -->
+  <string name="iAgree">I Agree</string>
+  <string name="imInterestedInSelling">I\'m interested in selling on Whatnot!</string>
+  <string name="inactive">Inactive</string>
+  <string name="inbox">Inbox</string>
+  <string name="inboxTabAllCustomerSupport">Customer Support</string>
+  <string name="includesVat">(inc. VAT)</string>
+  <string name="inProgress">In Progress</string>
+  <!-- Text for a Label denoting the listing is assigned to a live show -->
+  <string name="inShow">In Show</string>
+  <string name="instructions">Instructions</string>
+  <string name="interestsSelectionDescriptionV2">Pick a few to get started.</string>
+  <string name="interestsSelectionTitle">What do you like to shop for?</string>
+  <!-- %1$s country flag param as emoji code. %2$s estimated shipping price. -->
+  <string name="internationalShippingInformationWithTaxes">%1$s %2$s Shipping + Taxes</string>
+  <string name="invalidCode">Invalid code</string>
+  <string name="invalidVerifyCodeError">Invalid code. Please try again or ask for a new code.</string>
+  <string name="inventory">Inventory</string>
+  <string name="inviteHistoryEmptyStateMessage">Your referral invites show up here!</string>
+  <string name="isRequired">%1$s is required</string>
+  <plurals name="itemCount">
+    <item quantity="one">%1$s item</item>
+    <item quantity="other">%1$s items</item>
+  </plurals>
+  <string name="itemSold">item sold</string>
+  <string name="itemsSold">items sold</string>
+  <string name="joinShow">Join Show</string>
+  <string name="jumbotronSubtitleWonTheAuction">Won the auction!</string>
+  <string name="learnMore">Learn More</string>
+  <string name="learnMoreLink"><![CDATA[<annotation tag="link">Learn more</annotation>]]></string>
+  <string name="leave">Leave</string>
+  <string name="lessonXOfX">Lesson %1$d of %2$d</string>
+  <string name="letsGo">Let\'s go</string>
+  <string name="live">Live</string>
+  <string name="livePaymentsInformationalMessage">Welcome to Whatnot! In order to bid on auctions you need to add a payment method and shipping address. All bids and purchases are final.</string>
+  <plurals name="liveShowsCountStringParam">
+    <item quantity="one">%1$s Live Show</item>
+    <item quantity="other">%1$s Live Shows</item>
+  </plurals>
+  <string name="liveUpsellSecondaryFAQCta">FAQ</string>
+  <string name="loading">Loading…</string>
+  <string name="localPickup">Free Pickup</string>
+  <string name="localPickupAddress">Pickup Address</string>
+  <string name="localPickupAvailable">Free Pickup Available</string>
+  <string name="localPickupComplete">Picked Up</string>
+  <string name="localPickupDetails">Pickup Details</string>
+  <string name="localPickupLivestreamInformation">Free Pickup</string>
+  <string name="localPickupReady">Ready for Pickup</string>
+  <string name="localPickupReadyConfirmPickup">Confirm Pickup</string>
+  <string name="location">Location</string>
+  <string name="logInTo">Log in to</string>
+  <string name="logInToBody">Join a live shopping community for curators and collectors.</string>
+  <string name="logInToFooter"><![CDATA[Don\'t have an account? <annotation tag="cta">Sign Up</annotation>]]></string>
+  <string name="loyaltyBronze">Bronze</string>
+  <string name="makeAnOffer">Make an Offer</string>
+  <string name="makeOffer">Make Offer</string>
+  <string name="male">Male</string>
+  <string name="manage">Manage</string>
+  <string name="maxBidOverbidding">Another bidder is winning. Increase your Bid.</string>
+  <string name="maximize">Maximize</string>
+  <string name="maybeLater">Maybe later</string>
+  <string name="media">Media</string>
+  <string name="message">Message</string>
+  <string name="messages">Messages</string>
+  <string name="min">Min</string>
+  <string name="minimize">Minimize</string>
+  <string name="mondialRelayInformationUrl">https://help.whatnot.com/hc/articles/21323472793613-French-Shipping-for-Buyers</string>
+  <string name="more">More</string>
+  <!-- Order detail page section header for more content from the seller -->
+  <string name="moreFromThisSeller">More From This Seller</string>
+  <string name="myRewards">My Rewards</string>
+  <string name="nameYourShow">Name your show</string>
+  <string name="needsLabel">Needs Label</string>
+  <string name="new_">New</string>
+  <string name="newMessage">New message</string>
+  <string name="next">Next</string>
+  <string name="no">No</string>
+  <string name="nonBinary">Non-Binary</string>
+  <string name="notAvailable">N/A</string>
+  <string name="noThanks">No Thanks</string>
+  <string name="notifications">Notifications</string>
+  <string name="notificationsSheetDefaultUsername">this seller</string>
+  <string name="notificationsSheetTurnOnSystemCTA">Turn on Notifications</string>
+  <string name="notNow">Not Now</string>
+  <string name="numberLeft">%1$s left</string>
+  <string name="numberOfHoursTruncated">%1$dh</string>
+  <string name="numberOfMinutesTruncated">%1$dm</string>
+  <string name="numberOfSeconds">%1$ds</string>
+  <string name="numberOfUpcomingShows">%1$s Upcoming Shows</string>
+  <plurals name="numberOfUpcomingShowsParam">
+    <item quantity="one">%1$s Upcoming Show</item>
+    <item quantity="other">%1$s Upcoming Shows</item>
+  </plurals>
+  <string name="off">Off</string>
+  <string name="offer">Offer</string>
+  <string name="offerDate">Offer date</string>
+  <string name="offerDetails">Offer Details</string>
+  <string name="offers">Offers</string>
+  <string name="ok">OK</string>
+  <string name="on">On</string>
+  <string name="onboardingHowItWorksDesc1">Join a live show to purchase items, chat with sellers in real time.</string>
+  <string name="onboardingHowItWorksDesc2">Bid on items in a live show to purchase. Shop with confidence, get the item you ordered or your money back.</string>
+  <string name="onboardingHowItWorksDesc3">Bookmark an upcoming show by tapping the bookmark icon. We\'ll send you a reminder when the show starts!</string>
+  <string name="onboardingHowItWorksSubtitle1">Watch &amp; Shop</string>
+  <string name="onboardingHowItWorksSubtitle2">Swipe to Bid &#128073;</string>
+  <string name="onboardingHowItWorksSubtitle3">Don\'t Miss A Deal</string>
+  <string name="onboardingHowItWorksTakeMeToHome">Take Me to my Home Feed</string>
+  <string name="onboardingHowItWorksTitle">How does it work?</string>
+  <string name="oops">Oops, something went wrong!</string>
+  <string name="oopsExclaim">Oops!</string>
+  <string name="oopsSomethingWentWrong">Oops, something went wrong!</string>
+  <string name="oopsTryAgain">Oops, something went wrong! Please try again.</string>
+  <string name="openSettings">Open Settings</string>
+  <string name="option">Option</string>
+  <string name="options">Options</string>
+  <string name="orderHasArrived">Order Has Arrived</string>
+  <string name="orderNumber">Order ID</string>
+  <string name="orderNumberArg">Order # %1$s</string>
+  <string name="orders">Orders</string>
+  <string name="orderStatusWeeklyBundleHeader">Ships after %1$s</string>
+  <string name="other">Other</string>
+  <!-- Refers to a section title in order an seller review form. How happy are you overall? -->
+  <string name="overall">Overall</string>
+  <string name="packaging">Packaging</string>
+  <string name="password">Password</string>
+  <string name="pause">Pause</string>
+  <string name="payment">Payment</string>
+  <string name="paymentFailed">Payment Failed</string>
+  <string name="paymentFailedUpdatePaymentMethod">Payment Failed. Update your payment method within 24 hours.</string>
+  <string name="paymentFailedWithValue">Payment Failed: %1$s</string>
+  <string name="paymentMethod">Payment Method</string>
+  <string name="paymentPending">Payment Pending</string>
+  <string name="paymentPendingWithValue">Payment Pending: %1$s</string>
+  <string name="payouts">Payouts</string>
+  <string name="percent">%1$d%%</string>
+  <string name="percentBelowAsking">(%1$d%% below asking)</string>
+  <string name="percentWithOneDecimal">%.1f%%</string>
+  <string name="permissionsRequired">Permissions required</string>
+  <string name="phoneAlreadyLinkedError">Phone number already linked to different account. Contact support.</string>
+  <string name="phoneNumber">Phone Number</string>
+  <string name="pickup">Pickup</string>
+  <string name="pickYour">Pick Your</string>
+  <string name="pin">Pin</string>
+  <string name="pinned">Pinned</string>
+  <string name="play">Play</string>
+  <string name="pleaseInputYourPaymentInfo">Please input your payment info.</string>
+  <string name="pleaseSetYourShippingInformationHere">Please set your shipping information here.</string>
+  <string name="plusShippingAndTaxes"> + %1$s shipping + taxes</string>
+  <string name="plusShippingAndTaxesNoValue">+ shipping + taxes</string>
+  <string name="plusShippingNoTaxes"> + %1$s shipping</string>
+  <string name="plusShippingNoTaxesNoValue">+ shipping</string>
+  <string name="policyStanding">Policy Standing</string>
+  <string name="postShowAdsAdditionalCtaSubtitle">Take a look at our new and improved seller analytics design!</string>
+  <string name="postShowAdsAdditionalCtaTitle">Visit Seller Analytics for more!</string>
+  <string name="postShowAdsEmptyStateCta">Let\’s Do It!</string>
+  <string name="postShowAdsEmptyStateSubtitle">See the impact for yourself! Shows that leverage Promote Tools drive more impressions, clicks, and sales. Lock in your next show\'s success today!</string>
+  <string name="postShowAdsEmptyStateTitle">Let\’s take your next show to new heights!</string>
+  <string name="postShowTileOrders">Orders</string>
+  <string name="postShowTileSales">Sales</string>
+  <string name="postShowTileShares">Shares</string>
+  <string name="postShowTileShowDuration">Show Duration</string>
+  <!-- duration in hours and minutes (%1$d represents hours, %2$d represents minutes) -->
+  <string name="postShowTileShowDurationHoursMinutes">%1$dh %2$dm</string>
+  <!-- duration in minutes (%1$d represents minutes) -->
+  <string name="postShowTileShowDurationMinutes">%1$dm</string>
+  <string name="postShowTileTotalViews">Total Views</string>
+  <string name="postShowTileUniqueViewers">Unique Viewers</string>
+  <string name="postShowTipsIntroCta">Let\'s Go</string>
+  <string name="preBid">Pre-bid</string>
+  <string name="preferences">Preferences</string>
+  <string name="preferredMondialRelayPickupPoint">Mondial Relay pickup point</string>
+  <string name="premierShop">Premier Shop</string>
+  <string name="premierShopBadging">Premier Shop Badging</string>
+  <string name="price">Price</string>
+  <!-- Refers to a input price hint. %1$s currency symbol dynamic param. Example: $0 -->
+  <string name="priceHint">%1$s0</string>
+  <!-- Refers to not selecting a category in the favorite category selection. "I'm not sure what my favorite category is" -->
+  <string name="primaryCategoryNoSelection">I don\'t have a favorite</string>
+  <!-- Refers to selecting the category of which you are selling in. Interest here is used as a noun -->
+  <string name="primaryCategorySelectionTitle">Select Category</string>
+  <!-- Refers to explanation that selecting your favorite category will help give the user the best curated shopping experience-->
+  <string name="primaryCategorySubtitle">This will help us create the best shopping experience for you!</string>
+  <!-- Refers to select your favorite category in the given list. There is a new line for the word favorite to emphasis "favorite" -->
+  <string name="primaryCategoryTitle">Select your favorite category</string>
+  <string name="primaryLanguage">Primary Language</string>
+  <string name="privacyUrlInc">https://www.whatnot.com/privacy</string>
+  <!-- Refers to the toggle description to join a show without being announced.  -->
+  <string name="privateEntrySettingDescription">Turn this on to join shows without being announced in the chat. You\’ll still be able to bid, buy, and chat as usual.</string>
+  <!-- Refers to the toggle title to join a show without being announced.  -->
+  <string name="privateEntrySettingTitle">Enable Private Entry</string>
+  <string name="products">Products</string>
+  <string name="profile">Profile</string>
+  <string name="promoCode">Promo Code</string>
+  <!-- Name of the "Promote" ad tool -->
+  <string name="promote">Promote</string>
+  <!-- Title for Promote Tools within Seller Hub -->
+  <string name="promoteTools">Promote Tools</string>
+  <string name="publish">Publish</string>
+  <string name="purchased">Purchased</string>
+  <string name="purchases">Purchases</string>
+  <string name="qtyLabel">Qty</string>
+  <string name="quantity">Quantity</string>
+  <string name="quantityIsRequired">Quantity is required</string>
+  <string name="random">Random</string>
+  <string name="ratePurchasePublicMessage">This review will be public.</string>
+  <string name="rating">Rating</string>
+  <string name="readyToShip">Ready to Ship</string>
+  <string name="recentlyUsed">Recently Used</string>
+  <string name="reducedCommissionBannerDescription">Eligible on all sales until %1$s.</string>
+  <string name="reducedCommissionBannerTitle">%1$s%% Commission Fees</string>
+  <string name="referral">Referral</string>
+  <string name="referralBookmarkAllowNotifications">Allow Notifications</string>
+  <!-- %1$s for below 3 strings serves as a placeholder variable for the user's referrer who has an upcoming show. -->
+  <string name="referralBookmarkShowSubtitle">We\'ll send you a reminder when %1$s goes live. Enable notifications to never miss a show!</string>
+  <string name="referralBookmarkShowTitle">Don\'t miss %1$s\'s upcoming shows</string>
+  <string name="referralBookmarkShowUsername">%1$s\'s show!</string>
+  <string name="referralCreditCongratsContinueText">Next, let\'s set up your profile and shopping preferences so we can find the best sellers and deals for you.</string>
+  <!-- %1$s is a placeholder variable for the amount of credit the user received from referral and %2$s serves as a placeholder variable for the user's associated referrer.  -->
+  <string name="referralCreditCongratsTitle">Congrats! You just redeemed %1$s credit from %2$s</string>
+  <string name="referrals">Referrals</string>
+  <string name="referralShareMessage">Check out the Whatnot app. Sign up with this link and you will get %1$s off your first purchase. %2$s</string>
+  <string name="referralShareMessageRandomization">Check out the Whatnot app! Sign up with my link and get up to %1$s off your first purchase. %2$s</string>
+  <string name="referralsInviteHistory">Invite History</string>
+  <string name="referralSplashHeader">Finish signing up in the next 24 hours and receive %1$s in Whatnot credit</string>
+  <string name="referralSplashHeaderRandomization">Finish signing up in the next 24 hours to get up to %1$s in Whatnot credit</string>
+  <string name="referralSplashInvitedBy">%1$s invited you to Whatnot! Finish signup to receive your free credit. Make your first purchase and join millions of shoppers on Whatnot.</string>
+  <string name="referralSplashInvitedByWithTerms"><![CDATA[%1$s invited you to Whatnot! Finish signup to receive your free credit. Make your first purchase and join millions of shoppers on Whatnot. <annotation tag="link">See Terms</annotation>]]></string>
+  <string name="referrerCreditRevealDescription">Keep those referrals coming!</string>
+  <string name="referrerCreditRevealMultipleTitle">Congratulations! You got %1$s of Whatnot credit for referring %2$s users.</string>
+  <string name="referrerCreditRevealSingleTitle">Congratulations! You got %1$s of Whatnot credit from referring %2$s.</string>
+  <string name="refinementSelectionDescriptionV2">Pick only what you\'re passionate about.</string>
+  <string name="refinementSelectionTitle">"Tell us a bit more"</string>
+  <string name="reject">Reject</string>
+  <string name="remove">Remove</string>
+  <string name="removeCoHost">Remove Co-Host</string>
+  <string name="report">Report</string>
+  <string name="reportBug">Report a Bug</string>
+  <string name="requestCancellation">Request cancellation</string>
+  <string name="required">Required</string>
+  <string name="resendCode">Resend code</string>
+  <string name="reset">Reset</string>
+  <string name="responseRate">Response Rate</string>
+  <string name="resume">Resume</string>
+  <string name="retry">Retry</string>
+  <string name="review">Review</string>
+  <string name="reviews">Reviews</string>
+  <!-- Number of reviews a seller has received -->
+  <plurals name="reviews">
+    <item quantity="one">%1$s Review</item>
+    <item quantity="other">%1$s Reviews</item>
+  </plurals>
+  <string name="rewards">Rewards</string>
+  <string name="rewardsClub">Rewards Club</string>
+  <string name="rewardsShow">Rewards Show</string>
+  <!-- Button for running a giveaway. -->
+  <string name="runGiveaway">Run Giveaway</string>
+  <string name="saleTaxExemption">Sale Tax Exemption</string>
+  <string name="save">Save</string>
+  <string name="saveAndNotifyMe">Save &amp; Notify Me</string>
+  <string name="saved">Saved</string>
+  <string name="saveDraft">Save Draft</string>
+  <string name="saveThisSearch">Save this Search</string>
+  <string name="schedule">Schedule</string>
+  <string name="scheduleALiveShow">Schedule a Live Show</string>
+  <string name="scheduleAShow">Schedule a show</string>
+  <string name="scheduleNextShow">Schedule next show</string>
+  <string name="search">Search</string>
+  <!-- used to format the display of the rewards season timeline: StartDate - EndDate -->
+  <string name="seasonDateRangeFormat">%1$s - %2$s</string>
+  <string name="seeAll">See All</string>
+  <string name="seeLess">See Less</string>
+  <string name="seeMore">See More</string>
+  <string name="seeProducts">See Products</string>
+  <string name="seeSpots">See Spots</string>
+  <string name="select">Select</string>
+  <string name="selectAll">Select All</string>
+  <string name="selectedCountry">%1$s  %2$s</string>
+  <string name="selectOptions">Select Options</string>
+  <string name="selectSpot">Select Spot</string>
+  <string name="sell">Sell</string>
+  <string name="seller101">Seller 101</string>
+  <plurals name="sellerChallengeLearnMoreRequirementBuyers">
+    <item quantity="one">Sell to %1$d buyer</item>
+    <item quantity="other">Sell to %1$d different buyers</item>
+  </plurals>
+  <plurals name="sellerChallengeLearnMoreRequirementMinutes">
+    <item quantity="one">Go live for %1$d minute</item>
+    <item quantity="other">Go live for %1$d minutes</item>
+  </plurals>
+  <string name="sellerChallengeLearnMoreRequirementSales">Make %1$s in sales</string>
+  <string name="sellerChallengeSelectionReminderDescription"><![CDATA[Go live and we\'ll fuel your growth with bonus cash.\n<annotation tag="link">Choose Your Bonus</annotation>]]></string>
+  <string name="sellerChallengeSelectionReminderTitle">Earn up to a %1$s bonus</string>
+  <string name="sellerFeeUrl" translatable="false">https://help.whatnot.com/hc/articles/4847069165965-Whatnot-s-Selling-and-Processing-Fees</string>
+  <string name="sellerHub">Seller Hub</string>
+  <string name="sellerPayoutVerificationIdVerificationErrored">We\’re having trouble verifying your ID card. Please try again or contact support.</string>
+  <string name="sellerPayoutVerificationIdVerificationInProgress">Your ID verification has been submitted. This should only take a moment.</string>
+  <string name="sellerReferralLimitedTimeOffer">Limited time offer</string>
+  <string name="sellerTraining">Seller Training</string>
+  <string name="sellerVerificationBannerIdvBeforeFirstLiveFailedDescription">Please visit the seller verification page to learn more.</string>
+  <string name="sellerVerificationBannerIdvBeforeFirstLiveFailedTitle">We couldn\'t verify your account</string>
+  <string name="sellerVerificationBannerIdvBeforeFirstLiveInProgressDescription">This rarely takes more than an hour. We\'ll notify you when we\'re done.</string>
+  <string name="sellerVerificationBannerIdvBeforeFirstLiveInProgressTitle">We\'re processing your verification</string>
+  <string name="sellerVerificationGlobalBannerNeedToVerifyDescription">It takes you 2 minutes, but it can take us up to an hour to process your verification.</string>
+  <plurals name="sellToXDifferentBuyers">
+    <item quantity="one">Sell to %1$d different buyer</item>
+    <item quantity="other">Sell to %1$d different buyers</item>
+  </plurals>
+  <string name="sendMessage">Send Message…</string>
+  <string name="sendRequest">Send Request</string>
+  <string name="setPreferredPickupPoint">Set preferred pickup point</string>
+  <string name="setPreferredPointRelaisPickupLocation">Set preferred Point Relais pickup location</string>
+  <string name="settings">Settings</string>
+  <string name="share">Share</string>
+  <string name="shareProfile">Share profile</string>
+  <string name="shareProfilePreviewDescription">Check out this profile on Whatnot.com</string>
+  <string name="shareToInstagramStoriesLivestreamSubtitle">Shop Live Now!</string>
+  <string name="shipmentsScannerAlreadyShippedDescription">Shipment statuses auto-update when we receive an update from the carrier, typically within a day or two.</string>
+  <string name="shipmentsScannerAlreadyShippedTitle">Already shipped without using the in-app scanner?</string>
+  <string name="shipmentsScannerLearnMoreUrl" translatable="false">https://help.whatnot.com/hc/articles/39184750709261-Proof-of-Drop-Off</string>
+  <string name="shipping">Shipping</string>
+  <string name="shippingAddress">Shipping Address</string>
+  <string name="shippingAndTaxInformation">%1$s Shipping &amp; Taxes</string>
+  <string name="shippingAndTaxInternationalInformation">%1$s Shipping is %2$s + Taxes</string>
+  <string name="shippingDayLessThanOneShort">&lt;1d</string>
+  <string name="shippingDaysShort">%1$dd</string>
+  <!-- %1$s country flag param as emoji code -->
+  <string name="shippingInternationalInformation">%1$s Shipping is %2$s</string>
+  <!-- %1$s country flag param as emoji coder. Example: "🇺🇸$10 Shipping"-->
+  <string name="shippingInternationalInformationNoTax">%1$s Shipping</string>
+  <string name="shippingProfile">Shipping Profile</string>
+  <!-- Refers to text label for shipping profile name input. -->
+  <string name="shippingProfiles">Shipping Profiles</string>
+  <!-- Refers to shipping profile selector add new profile link. -->
+  <string name="shippingProfileSelectorCustomAddNewProfile">Add New Profile</string>
+  <string name="shippingQuotesItemNotAvailable">Item Unavailable</string>
+  <string name="shippingQuotesItemNotShippable">Not shippable to you</string>
+  <string name="shippingQuotesNotShippableBidDescription">This item is currently unavailable to ship to your location.</string>
+  <!-- Refers to shipping to an address. -->
+  <string name="shippingTo">Shipping to</string>
+  <string name="shipTime">Ship Time</string>
+  <!-- Seller shop tab title. Noun. -->
+  <string name="shop">Shop</string>
+  <string name="showAll">Show All</string>
+  <string name="showEndedMessage">This show has ended</string>
+  <string name="showLess">Show Less</string>
+  <string name="showMore">Show More</string>
+  <string name="showNotesCouponFailed">Invalid promo code</string>
+  <string name="shows">Shows</string>
+  <plurals name="showsCount">
+    <item quantity="one">%1$s Show</item>
+    <item quantity="other">%1$s Shows</item>
+  </plurals>
+  <string name="signOut">Sign out</string>
+  <string name="signUpErrorChallenge">Could not load challenge. Please try again later.</string>
+  <string name="signUpErrorPostAuth">Your account has been created, but we hit a snag setting up - please sign in.</string>
+  <string name="skip">Skip</string>
+  <string name="sold">Sold</string>
+  <string name="soldBy">Sold by</string>
+  <string name="soldFor">Sold for: %1$s</string>
+  <string name="soldForLabel">Sold for</string>
+  <string name="soldOut">Sold Out</string>
+  <string name="somethingWentWrong">Something went wrong!</string>
+  <string name="sortBy">Sort By</string>
+  <string name="spendLimitReached">Spend limit reached</string>
+  <string name="spendLimitReachedDescription">You\'ve hit your spend limit — purchasing will resume once your limit resets.</string>
+  <string name="sponsored">Sponsored</string>
+  <string name="start">Start</string>
+  <string name="startAuction">Start Auction</string>
+  <string name="startFlashSale">Start Flash Sale</string>
+  <!-- Starting price text. e.g., "Starting at $320". Used, for example, for an auction with an assigned starting price  -->
+  <string name="startingBid">Starting bid</string>
+  <string name="startPayout">Start Payout</string>
+  <string name="startShow">Start Show</string>
+  <string name="storagePermissionsAreRequired">Storage permissions are required</string>
+  <string name="stripePrivacyUrl" translatable="false">https://stripe.com/privacy</string>
+  <string name="submit">Submit</string>
+  <string name="submitAnAppeal">Submit an Appeal</string>
+  <string name="submitBid">Submit Bid</string>
+  <string name="submitted">Submitted!</string>
+  <string name="subtotal">Subtotal</string>
+  <string name="suddenDeathDescription">This means when you\'re down to 00:01, the last person to bid wins!</string>
+  <!-- Refers to a special type of an auction that does not increment auction time on every bid. -->
+  <string name="suddenDeathWithSkull">Sudden death 💀</string>
+  <string name="suggested">Suggested</string>
+  <string name="supportChatAgentName">Whatnot Support</string>
+  <string name="supportChatConversationLoadingError">Sorry! We\'ve encountered an error when loading this conversation. Please try again later.</string>
+  <string name="surpriseProduct">Surprise Product</string>
+  <string name="syncContacts">Sync contacts</string>
+  <string name="takePhoto">Take photo</string>
+  <string name="takeQuiz">Take Quiz</string>
+  <string name="team">Team</string>
+  <string name="teenSellerUrl" translatable="false">https://help.whatnot.com/hc/articles/27689602370317-Teens-on-Whatnot</string>
+  <string name="teenVerificationUnder18">You have been flagged as an under-18 seller. Sellers between the ages of 13–17 can only sell on their parent or guardians account. </string>
+  <string name="tellUsMore">Tell us more (optional)</string>
+  <string name="termsAndConditions"><![CDATA[Terms & Conditions]]></string>
+  <string name="termsAndConditionsWelcome"><![CDATA[By tapping sign up you agree to our <annotation tag="termsOfService">Terms of Service</annotation> and <annotation tag="privacyPolicy">Privacy Policy</annotation>]]></string>
+  <string name="termsUrlInc">https://www.whatnot.com/terms</string>
+  <string name="thanksForLettingUsKnow">Thanks for letting us know</string>
+  <string name="theresNothingHereAtTheMoment">There\’s nothing here at the moment!</string>
+  <string name="thisAttributeIsRequired">This attribute is required</string>
+  <string name="tips">Tips</string>
+  <string name="tipSettings">Tips Settings</string>
+  <string name="today">Today</string>
+  <string name="tomorrow">Tomorrow</string>
+  <string name="tooLong">Too long</string>
+  <string name="total">Total</string>
+  <string name="tryAgain">Try Again</string>
+  <string name="turnThisOnDms">Turn this on if you\'d like to receive direct messages from Whatnot users.</string>
+  <plurals name="typicallyShipsInDays">
+    <item quantity="one">Typically ships in %d day</item>
+    <item quantity="other">Typically ships in %d days</item>
+  </plurals>
+  <string name="typicallyShipsSameDay">Typically ships same day</string>
+  <string name="unblock">Unblock</string>
+  <string name="unfollow">Unfollow</string>
+  <string name="unfulfilled">Unfulfilled</string>
+  <string name="unknown">Unknown</string>
+  <string name="upcomingShows">Upcoming Shows</string>
+  <string name="update">Update</string>
+  <string name="userInvitedYouToJoin">%1$s invited you to join</string>
+  <string name="username">Username</string>
+  <string name="usernameAlreadyExists">Username already exists</string>
+  <string name="usernameInvalidFormat">Invalid username format. Don\'t use spaces, special characters. Max 20 characters</string>
+  <string name="usernameOrdersPending">Cannot change username while orders are pending</string>
+  <string name="userReports">User Reports</string>
+  <string name="userWon"><![CDATA[%1$s <annotation tag="winningText">won!</annotation>]]></string>
+  <string name="vacationModeBannerDescription">Their shop will reopen soon.</string>
+  <!--
+  Refers to the title of the vacation mode banner. %1$s is the username of the user/seller on vacation.
+  The vacation mode banner includes an action button that takes the user to the profile menu where they can turn off vacation mode.
+  -->
+  <string name="vacationModeBannerTitle">%1$s is on vacation</string>
+  <!-- This toggle allows the user to turn vacation mode on/off.-->
+  <string name="validationError">Validation Error</string>
+  <!-- Price range for a listing, e.g. "$100 — $200" -->
+  <string name="variantsPriceRange">%1$s — %2$s</string>
+  <string name="verified">Verified</string>
+  <string name="verifiedBuyer">Verified buyer</string>
+  <string name="verifyAccount">Verify Account</string>
+  <string name="verifyIdentity">Verify identity</string>
+  <string name="view">View</string>
+  <string name="viewAll">View All</string>
+  <string name="viewAllReferrals">View All Referrals</string>
+  <!-- The number of people who are viewing -->
+  <plurals name="viewerCountStringParam">
+    <item quantity="one">%1$s Viewer</item>
+    <item quantity="other">%1$s Viewers</item>
+  </plurals>
+  <string name="viewMenu">View menu</string>
+  <string name="viewProfile">View Profile</string>
+  <string name="viewReferralHub">View Referral Hub</string>
+  <string name="viewSavedItems">View saved items</string>
+  <string name="viewShippingLabel">View Shipping Label</string>
+  <string name="viewSpots">View Spots</string>
+  <string name="viewStatus">View status</string>
+  <string name="wallet">Wallet</string>
+  <string name="watchLimitReached">Watch limit reached</string>
+  <string name="watchLimitReachedDescription">You\'ve hit your watch limit — streaming will resume once your limit resets.</string>
+  <string name="weeklyBundleScheduledToShipOn">This weekly bundle is scheduled to ship on %1$s</string>
+  <string name="weeklyBundleScheduledToShipOnDescription">Are you sure you want to generate this label? This will close the bundle early and could result in additional shipping costs for the buyer.</string>
+  <string name="weight">Weight</string>
+  <string name="welcomeTo">Welcome to</string>
+  <string name="welcomeToBody">Sign up and join a live shopping community for curators and collectors.</string>
+  <string name="welcomeToBodyV2">Shop, sell, and connect around the things you love.</string>
+  <string name="welcomeToFooter"><![CDATA[Already have an account? <annotation tag="cta">Log In</annotation>]]></string>
+  <string name="welcomeToTagline">The Live Shopping Marketplace</string>
+  <string name="whatnotBuyerGuarantee">Whatnot Buyer Guarantee</string>
+  <string name="whatnotBuyerProtectionsUrl">https://help.whatnot.com/hc/articles/360061194552-Whatnot-Buyer-Protection-Policy</string>
+  <string name="whatnotSellerGuarantee">Whatnot Seller Guarantee</string>
+  <string name="whatnotSellerGuaranteeMessage">Your sale is protected against fraudulent buyers.</string>
+  <string name="whatsYourPhoneNumber">What\'s your phone number?</string>
+  <string name="winner">Winner</string>
+  <!-- Refers to status on livestream auction. -->
+  <string name="winning">Winning</string>
+  <string name="withdraw">Withdraw</string>
+  <plurals name="xOfxBuyers">
+    <item quantity="one">%1$d of %2$d buyer</item>
+    <item quantity="other">%1$d of %2$d buyers</item>
+  </plurals>
+  <string name="xOfxMin">%1$d of %2$d min</string>
+  <string name="xOfxSold">%1$s of %2$s sold</string>
+  <string name="yes">Yes</string>
+  <string name="yesterday">Yesterday</string>
+  <!-- Refers to the username input field on sign up -->
+  <string name="youCanAlwaysChangeThisLater">You can always change this later.</string>
+  <!-- total string is 'You're winning!', we need two parts to this for styling purposes -->
+  <string name="youreWinning"><![CDATA[You\'re <annotation tag="winningText">winning!</annotation>]]></string>
+  <string name="yourFriend">Your friend</string>
+  <string name="youWon"><![CDATA[You <annotation tag="winningText">won!</annotation>]]></string>
+</resources>
