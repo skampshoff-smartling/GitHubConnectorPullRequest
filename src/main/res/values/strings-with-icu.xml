@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <!-- smartling.string_format = icu -->
   <!-- smartling.instruction_comments_enabled = on -->
   <string name="results">Your playlist has {items, plural, one {# album.} other {# albums.}}</string>
   <string name="accept">Accept</string>
