@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <!-- smartling.instruction_comments_enabled = on -->
+  <string name="results">تحتوي قائمة التشغيل الخاصة بك على {items، بصيغة الجمع، ألبوم {# واحد.} ألبومات أخرى {#.}}}</string>
+  <string name="accept">Accepting...</string>
+  <plurals name="xOfxBuyers">
+        <item quantity="zero">%1$d من مشتري %2$d</item>
+        <item quantity="one">%1$d من مشتري %2$d</item>
+        <item quantity="two">%1$d من مشتري %2$d</item>
+        <item quantity="few">%1$d من مشتري %2$d</item>
+        <item quantity="many">%1$d من مشتري %2$d</item>
+        <item quantity="other">%1$d من مشتري %2$d</item>
+    </plurals>
+</resources>
