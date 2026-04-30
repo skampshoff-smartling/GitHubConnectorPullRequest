@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <!-- smartling.instruction_comments_enabled = on -->
+  <string name="results">您的播放列表中有 {items, plural, one {# album.}其他 {# 相册.}}</string>
+  <string name="accept">接受</string>
+  <plurals name="xOfxBuyers">
+        <item quantity="other">%1$d of%2$d 买家</item>
+    </plurals>
+</resources>
