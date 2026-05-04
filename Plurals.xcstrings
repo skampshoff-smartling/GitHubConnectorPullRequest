@@ -1,0 +1,466 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "itemize_overview_items_count %lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld Artikel" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld Artikel" } }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld item" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld items" } }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld artículo" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld artículos" } }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld article" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld articles" } }
+            }
+          }
+        },
+        "id" : {
+          "variations" : {
+            "plural" : {
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld item" } }
+            }
+          }
+        },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld articolo" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld articoli" } }
+            }
+          }
+        },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld件のアイテム" } }
+            }
+          }
+        },
+        "nl" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld artikel" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld artikelen" } }
+            }
+          }
+        },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld element" } },
+              "few" : { "stringUnit" : { "state" : "translated", "value" : "%lld elementy" } },
+              "many" : { "stringUnit" : { "state" : "translated", "value" : "%lld elementów" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld elementu" } }
+            }
+          }
+        },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld item" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld itens" } }
+            }
+          }
+        },
+        "pt-PT" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld item" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld itens" } }
+            }
+          }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld objekt" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld objekt" } }
+            }
+          }
+        },
+        "th" : {
+          "variations" : {
+            "plural" : {
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld รายการ" } }
+            }
+          }
+        }
+      }
+    },
+    "itemize_person_items_selected_count_text %lld" : {
+      "comment" : "Label shown on top of itemization flow person screen that shows the number of items currently assigned to this person. Placeholder is number of items",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld Artikel ausgewählt" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld Artikel ausgewählt" } }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld item selected" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld items selected" } }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld artículo seleccionado" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld artículos seleccionados" } }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld article sélectionné" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld articles sélectionnés" } }
+            }
+          }
+        },
+        "id" : {
+          "variations" : {
+            "plural" : {
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld item dipilih" } }
+            }
+          }
+        },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld articolo selezionato" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld articoli selezionati" } }
+            }
+          }
+        },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld件のアイテムを選択中" } }
+            }
+          }
+        },
+        "nl" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld artikel geselecteerd" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld artikelen geselecteerd" } }
+            }
+          }
+        },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Wybrano %lld element" } },
+              "few" : { "stringUnit" : { "state" : "translated", "value" : "Wybrano %lld elementy" } },
+              "many" : { "stringUnit" : { "state" : "translated", "value" : "Wybrano %lld elementów" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Wybrano %lld elementu" } }
+            }
+          }
+        },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld item selecionado" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld itens selecionados" } }
+            }
+          }
+        },
+        "pt-PT" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld item selecionado" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld itens selecionados" } }
+            }
+          }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld objekt valt" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld objekt valda" } }
+            }
+          }
+        },
+        "th" : {
+          "variations" : {
+            "plural" : {
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "เลือกแล้ว %lld รายการ" } }
+            }
+          }
+        }
+      }
+    },
+    "itemize_person_proceed_button_title %lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld Artikel zuweisen" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld Artikel zuweisen" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Diese Person überspringen" } }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Assign %lld item" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Assign %lld items" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Skip this person" } }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Asignar %lld artículo" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Asignar %lld artículos" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Omitir a esta persona" } }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Assigner %lld article" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Assigner %lld articles" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Ignorer cette personne" } }
+            }
+          }
+        },
+        "id" : {
+          "variations" : {
+            "plural" : {
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Tetapkan %lld item" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Lewati orang ini" } }
+            }
+          }
+        },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Assegna %lld articolo" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Assegna %lld articoli" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Salta questa persona" } }
+            }
+          }
+        },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld件のアイテムを割り当て" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "この人をスキップ" } }
+            }
+          }
+        },
+        "nl" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld artikel toewijzen" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld artikelen toewijzen" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Sla deze persoon over" } }
+            }
+          }
+        },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Przypisz %lld element" } },
+              "few" : { "stringUnit" : { "state" : "translated", "value" : "Przypisz %lld elementy" } },
+              "many" : { "stringUnit" : { "state" : "translated", "value" : "Przypisz %lld elementów" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Przypisz %lld elementu" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Pomiń tę osobę" } }
+            }
+          }
+        },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Atribuir %lld item" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Atribuir %lld itens" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Pular esta pessoa" } }
+            }
+          }
+        },
+        "pt-PT" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Atribuir %lld item" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Atribuir %lld itens" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Ignorar esta pessoa" } }
+            }
+          }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Tilldela %lld objekt" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Tilldela %lld objekt" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Hoppa över den här personen" } }
+            }
+          }
+        },
+        "th" : {
+          "variations" : {
+            "plural" : {
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "มอบหมาย %lld รายการ" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "ข้ามบุคคลนี้" } }
+            }
+          }
+        }
+      }
+    },
+    "payment_option_subtitle_payment_request_indicator %lld" : {
+      "comment" : "Subtitle shown below a payment option when there is an existing payment request matching that payment option. Placeholder is the number of days since the request is made. For 0 days, we use the word \"today\" instead of saying 0 days ago, feel free to add the placeholder %lld if it makes sense in your language.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Vor %lld Tag angefordert" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Vor %lld Tagen angefordert" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Heute angefordert" } }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Requested %lld day ago" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Requested %lld days ago" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Requested today" } }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Solicitado hace %lld día" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Solicitado hace %lld días" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Solicitado hoy" } }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Demandé il y a %lld jour" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Demandé il y a %lld jours" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Demandé aujourd'hui" } }
+            }
+          }
+        },
+        "id" : {
+          "variations" : {
+            "plural" : {
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Diminta %lld hari yang lalu" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Diminta hari ini" } }
+            }
+          }
+        },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Richiesto %lld giorno fa" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Richiesto %lld giorni fa" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Richiesto oggi" } }
+            }
+          }
+        },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld日前にリクエスト済み" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "今日リクエスト済み" } }
+            }
+          }
+        },
+        "nl" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld dag geleden aangevraagd" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld dagen geleden aangevraagd" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Vandaag aangevraagd" } }
+            }
+          }
+        },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Zażądano %lld dzień temu" } },
+              "few" : { "stringUnit" : { "state" : "translated", "value" : "Zażądano %lld dni temu" } },
+              "many" : { "stringUnit" : { "state" : "translated", "value" : "Zażądano %lld dni temu" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Zażądano %lld dnia temu" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Zażądano dzisiaj" } }
+            }
+          }
+        },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Solicitado %lld dia atrás" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Solicitado %lld dias atrás" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Solicitado hoje" } }
+            }
+          }
+        },
+        "pt-PT" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Solicitado há %lld dia" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Solicitado há %lld dias" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Solicitado hoje" } }
+            }
+          }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Begärdes för %lld dag sedan" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Begärdes för %lld dagar sedan" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "Begärdes idag" } }
+            }
+          }
+        },
+        "th" : {
+          "variations" : {
+            "plural" : {
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "ส่งคำขอเมื่อ %lld วันที่แล้ว" } },
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "ส่งคำขอวันนี้" } }
+            }
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
