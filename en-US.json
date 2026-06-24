@@ -34,5 +34,8 @@
   "Vcm5Zj2": {
     "description": "Reduced Commission Modal waiving copy",
     "message": "We're waiving your full commission fee (4%-8% depending on category and country) to kickstart your selling journey"
+  },  "yq9KJ8": {
+    "description": "Spot description input field placeholder text where {is_mystery} determines whether to show 'Item' (for surprise sets) or the spot type (e.g. Spot, Team, Item for regular breaks)",
+    "message": "{is_mystery, select, true {Item} other {{spot_type}}} Description"
   }
 }
