@@ -1,0 +1,38 @@
+{
+  "smartling": {
+    "string_format": "icu",
+    "translate_paths": [
+      {
+        "character_limit": "*/limit",
+        "instruction": "*/description",
+        "key": "{*}/message",
+        "path": "*/message"
+      }
+    ],
+    "variants_enabled": true
+  },
+  "++AQDJ": {
+    "description": "Aria label for cancel break button",
+    "message": "Cancella"
+  },
+  "+59QHf": {
+    "description": "Label showing the cumulative amount the buyer refunded from this seller",
+    "message": "{total_cost} rimborsato"
+  },
+  "+5VzQY": {
+    "description": "Button caption for copying a URL to share",
+    "message": "Nessun utente trovato"
+  },
+  "+5XmWW": {
+    "description": "Displayed when a user is logging in",
+    "message": "Accedendo..."
+  },
+  "Vcm5Zj": {
+    "description": "Reduced Commission Modal waiving copy",
+    "message": "Ti rinunciamo all'intera commissione (4% - 8% a seconda della categoria e del paese) per dare il via al tuo percorso di vendita"
+  },
+  "Vcm5Zj2": {
+    "description": "Reduced Commission Modal waiving copy",
+    "message": "Ti rinunciamo all'intera commissione (4%-8% a seconda della categoria e del paese) per dare il via al tuo percorso di vendita"
+  }
+}
