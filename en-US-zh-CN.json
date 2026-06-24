@@ -1,0 +1,38 @@
+{
+  "smartling": {
+    "string_format": "icu",
+    "translate_paths": [
+      {
+        "character_limit": "*/limit",
+        "instruction": "*/description",
+        "key": "{*}/message",
+        "path": "*/message"
+      }
+    ],
+    "variants_enabled": true
+  },
+  "++AQDJ": {
+    "description": "Aria label for cancel break button",
+    "message": "Avbryt"
+  },
+  "+59QHf": {
+    "description": "Label showing the cumulative amount the buyer refunded from this seller",
+    "message": "{total_cost}退款 0"
+  },
+  "+5VzQY": {
+    "description": "Button caption for copying a URL to share",
+    "message": "Inga resultat hittades"
+  },
+  "+5XmWW": {
+    "description": "Displayed when a user is logging in",
+    "message": "Loggar in"
+  },
+  "Vcm5Zj": {
+    "description": "Reduced Commission Modal waiving copy",
+    "message": "为了助您开启销售之旅，我们将免除您的全部佣金（根据品类和国家/地区不同，佣金比例为 4% 至 8%）。"
+  },
+  "Vcm5Zj2": {
+    "description": "Reduced Commission Modal waiving copy",
+    "message": "为了助您开启销售之旅，我们将免除您的全部佣金（根据类别和国家/地区不同，佣金金额为 40 %-8% ）。"
+  }
+}
